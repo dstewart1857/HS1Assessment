@@ -1,13 +1,13 @@
 using Microsoft.Extensions.Logging;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
-using SetAssessment.Controllers;
+using HS1Assessment.Controllers;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
-using SetAssessment;
+using HS1Assessment;
 using System.Linq;
 
-namespace SetAssessmentTests
+namespace HS1AssessmentTests
 {
     [TestFixture]
     public class WeatherTests
@@ -31,7 +31,6 @@ namespace SetAssessmentTests
         [Test]
         public void Test1()
         {
-            //Assert.Pass();
             IEnumerable<WeatherForecast> forcast = weatherForecastController.Get();
             Assert.IsNotNull(forcast, "Forcast was NULL!");
             List<WeatherForecast> forcastList = forcast.ToList();

@@ -1,4 +1,4 @@
-namespace SetAssessment
+namespace HS1Assessment
 {
     public class WeatherForecast
     {

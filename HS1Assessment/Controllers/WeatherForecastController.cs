@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace SetAssessment.Controllers
+namespace HS1Assessment.Controllers
 {
     [ApiController]
     [Route("[controller]")]
